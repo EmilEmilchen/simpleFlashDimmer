@@ -91,7 +91,7 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this, "Please enter a value greater than 0", Toast.LENGTH_SHORT).show()
                 }
             } catch (e: NumberFormatException) {
-                Toast.makeText(this, "Invalid input. Please enter a number.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Invalid input. Please enter a valid number.", Toast.LENGTH_SHORT).show()
             }
         } else {
             Toast.makeText(this, "Input field cannot be empty", Toast.LENGTH_SHORT).show()
